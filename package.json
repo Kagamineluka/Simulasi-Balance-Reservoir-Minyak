@@ -1,0 +1,15 @@
+{
+  "name": "simulasi-balance-reservoir-minyak",
+  "version": "1.0.0",
+  "description": "Aplikasi simulasi balance reservoir minyak berbasis Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["reservoir", "oil", "simulation"],
+  "author": "Nama Anda",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}

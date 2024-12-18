@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservoir Balance Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Reservoir Balance Simulation</h1>
+    <p>Track and simulate oil reservoir balance</p>
+  </header>
+
+  <main>
+    <!-- Input Form -->
+    <section class="form-section">
+      <h2>Input Reservoir Data</h2>
+      <form id="balanceForm">
+        <label for="initialVolume">Initial Oil Volume (m³):</label>
+        <input type="number" id="initialVolume" placeholder="Enter initial oil volume" required>
+
+        <label for="producedVolume">Produced Volume (m³):</label>
+        <input type="number" id="producedVolume" placeholder="Enter produced volume" required>
+
+        <label for="injectedVolume">Injected Volume (m³):</label>
+        <input type="number" id="injectedVolume" placeholder="Enter injected volume" required>
+
+        <button type="submit">Simulate Balance</button>
+      </form>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+      <h2>Results</h2>
+      <div id="results">
+        <table>
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Value (m³)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Initial Volume</td>
+              <td id="resultInitial">-</td>
+            </tr>
+            <tr>
+              <td>Produced Volume</td>
+              <td id="resultProduced">-</td>
+            </tr>
+            <tr>
+              <td>Injected Volume</td>
+              <td id="resultInjected">-</td>
+            </tr>
+            <tr>
+              <td>Final Balance</td>
+              <td id="resultBalance">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="chart-section">
+      <h2>Reservoir Balance Chart</h2>
+      <canvas id="balanceChart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Reservoir Balance Simulation</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

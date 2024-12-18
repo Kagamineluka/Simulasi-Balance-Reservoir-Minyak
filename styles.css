@@ -1,0 +1,148 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0d47a1;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  /* Form Section */
+  .form-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .form-section h2 {
+    color: #0d47a1;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input,
+  form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #0d47a1;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Results Section */
+  .results-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .results-section h2 {
+    color: #0d47a1;
+    margin-bottom: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+  }
+  
+  table td {
+    color: #333;
+  }
+  
+  /* Chart Section */
+  .chart-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-section h2 {
+    color: #0d47a1;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
